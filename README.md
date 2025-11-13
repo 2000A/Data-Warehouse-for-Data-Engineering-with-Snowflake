@@ -39,6 +39,42 @@ A Data warehouse is a **centralized repository** that stores data from <mark>fro
 It is designed to support business intelligence activites, such as reporting, analysis, and data myining. Unlike transactional databases, which are designed for day-to-day operations,<mark> data warehouses are designed for complex quries and analyis.</mark>
 
 
+![download](https://github.com/user-attachments/assets/84a62918-82ca-40d5-b6e2-3c31ce255d29)
+
+Buisness collect data to understand what is customer demand what is trending how their buisness is performing.
+
+- Mainly designed for analysis and reporting work.
+
+
+## Characteristics of Data Warehouse
+ Data should be organised based on proper buisness functions such as Sales , Marketing, Accounting, IT department all of these data should be organised for diff functions , so that is right data can used as per requirement.
+
+1. Subject-Oriented
+--> drop garbage data and store goal oriented quality data.
+   
+2. Integrated
+--> "Integrated" in a data warehouse means that data from multiple, disparate sources has been combined, cleaned, and standardized into a single, consistent, and unified view
+   This process eliminates data silos and ensures that all data within the warehouse is reliable and has a common format for analysis, reporting, and decision-making
+
+3. Time-Variant
+--> Enable users to analyse last 5 years data or las 10 years of data,
+   so one can analyse trend of previous years considering data warehouse
+   contains previours year data.
+   
+5. Non-Volatile
+--> So Data in data warehouse is not updated or deleted frequently instead
+   we updat data in batches say hourly basis or yearly bases
+
+## Benefits of Data Warehouse
+1. Improved Decision Making 
+2. Increased Efficiency - once data is properly structred
+3. Enhanced Data Quality - garbage out during building of data pipeline
+4. Competitive Advantage - Data Driven decision
+
+
+
+
+
 
 
 
