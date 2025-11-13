@@ -103,8 +103,5 @@ We have two data systems one is OLTP and OLAP
 
  #                  OLTP ----------ETL----------> OLAP
 
-What we do we store all of our data in OLTP and pass this data to OLAP to analysis. 
-
-
-
+What we do we store all of our data in OLTP and pass this data to OLAP to analysis
 
