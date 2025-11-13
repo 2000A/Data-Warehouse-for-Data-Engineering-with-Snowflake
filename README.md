@@ -132,6 +132,12 @@ In data lake house one can get both raw data as well as structured, transformed 
 
 <img width="1170" height="651" alt="Screenshot 2025-11-13 233750" src="https://github.com/user-attachments/assets/3709b837-b7cb-4f2c-9451-844a9b6c07af" />
 
+# ------------------------------------------------------------------
+
+# Snowflake DB Overview
+
+<img width="1224" height="598" alt="Screenshot 2025-11-13 234845" src="https://github.com/user-attachments/assets/f5e553ec-8810-4f29-b8bb-224a2ea0c0f7" />
+
 
 
 
