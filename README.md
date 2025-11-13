@@ -72,17 +72,20 @@ Buisness collect data to understand what is customer demand what is trending how
 4. Competitive Advantage - Data Driven decision
 
 
-# ========================================================================
+# =======================================
 # Kimball's Data Warehouse Apporach
 
 This is where we learn to create Data Warehouse.
 🟡 **Identify the Buisness Requirements**
+
 🟡 **Design the Dimensional Model**
+
 🟡 **Implement the ETL Processes**
+
 🟡 **Develop Data Access Tools**
 
 
- # =======================================================================
+ # ==============================================
  # OLTP VS OLAP
  <img width="1161" height="662" alt="Screenshot 2025-11-13 185635" src="https://github.com/user-attachments/assets/e00f6994-d9f9-4fa1-9929-5402166a90cc" />
 
