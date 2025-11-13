@@ -105,3 +105,23 @@ We have two data systems one is OLTP and OLAP
 
 What we do we store all of our data in OLTP and pass this data to OLAP to analysis
 
+
+# ====================================================================
+# Data Warehouse VS Data Lake
+
+<img width="845" height="516" alt="1663900516475" src="https://github.com/user-attachments/assets/85275e5f-b4e8-4a71-b69c-5074e036fc50" />
+
+Combination of Data Lake and Data Warehouse is called **Data Lake house**
+
+data storage sources ---------->Raw Storage-------------> ETL -------->DW
+
+In data lake house one can get both raw data as well as structured, transformed data.
+
+
+
+
+
+
+
+
+
