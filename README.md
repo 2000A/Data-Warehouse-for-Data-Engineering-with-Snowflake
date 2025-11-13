@@ -72,9 +72,35 @@ Buisness collect data to understand what is customer demand what is trending how
 4. Competitive Advantage - Data Driven decision
 
 
+# ========================================================================
+# Kimball's Data Warehouse Apporach
+
+This is where we learn to create Data Warehouse.
+🟡 **Identify the Buisness Requirements**
+🟡 **Design the Dimensional Model**
+🟡 **Implement the ETL Processes**
+🟡 **Develop Data Access Tools**
 
 
+ # =======================================================================
+ # OLTP VS OLAP
+ <img width="1161" height="662" alt="Screenshot 2025-11-13 185635" src="https://github.com/user-attachments/assets/e00f6994-d9f9-4fa1-9929-5402166a90cc" />
 
+We have two data systems one is OLTP and OLAP
+
+ Online transactional processing (OLTP)
+ ➔ MySQL, PostgreSQL, Oracle, etc are examples
+ ➔ for faster create, delete , select and other operations
+
+ Online Analytical Processing (OLAP)
+ ➔SnowflakeDB, Redshift, BigQuery, Hive, Synapse, etc.
+ ➔ slow processing as we will analyse years and years of data
+
+ On foundation side we have OLTP that interacts with applications side like we have bank website when user creates account stores password name all users data gets stored in OLTP. And then we have OLAP systems for analysis purpose.
+
+ #                  OLTP ----------ETL----------> OLAP
+
+What we do we store all of our data in OLTP and pass this data to OLAP to analysis. 
 
 
 
