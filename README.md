@@ -117,9 +117,20 @@ data storage sources ---------->Raw Storage-------------> ETL -------->DW
 
 In data lake house one can get both raw data as well as structured, transformed data.
 
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Case Study:
+**Creating a data warehouse where it requires only revenue and orders data**
+
+1. All data will be stored say RDBMS, CSV files taking these data and storing the raw format say in S3
+
+2. Then the data will be transformed we can use Spark job which is service provided by Amazon Glue or simple python can be used.
+
+3. Then We will convert the transformed data into a dimensional model say dim and fact table.
+
+4. then We will store it into Data Warehouse.
 
 
-
+<img width="1170" height="651" alt="Screenshot 2025-11-13 233750" src="https://github.com/user-attachments/assets/3709b837-b7cb-4f2c-9451-844a9b6c07af" />
 
 
 
