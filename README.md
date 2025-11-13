@@ -29,3 +29,17 @@ Fetching data from multiple sources for ex. If data is realtime we can use Kafka
 *Orchestration*: Order of execution is called orchestration like after ingestion transformation and afterwards serving like that 
 
 *Software Engineering best practice is also important.
+
+#=========================================================================
+
+# *What is Data Warehouse*
+
+A Data warehouse is a **centralized repository** that stores data from <mark>from various sources, such as transactional systems(mysql, sqlserver,postgresql etc), applications (google map, youtube etc,) and external sources( like sensors)</mark>.
+
+It is designed to support business intelligence activites, such as reporting, analysis, and data myining. Unlike transactional databases, which are designed for day-to-day operations,<mark> data warehouses are designed for complex quries and analyis.</mark>
+
+
+
+
+
+
