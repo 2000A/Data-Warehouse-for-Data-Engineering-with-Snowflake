@@ -1,4 +1,4 @@
-# Dimensional Modelling
+<img width="655" height="192" alt="image" src="https://github.com/user-attachments/assets/a269d66d-1131-4d96-8d55-da07b1a32a7a" /><img width="663" height="211" alt="image" src="https://github.com/user-attachments/assets/7c8da619-7c45-4b73-9202-22c0c1df36f0" /><img width="678" height="417" alt="image" src="https://github.com/user-attachments/assets/dc761539-a11b-4e88-b4cd-ab6ea5040671" /># Dimensional Modelling
 Method of organizing data in a data warehouse
 
 -> In data model data was normalized accros tables so we convert this data
@@ -41,12 +41,41 @@ In dimensional modelling facts table sits in middle and we have multiple dimensi
 
 # Why Dimensional Modelling
 
+✔ Goal: Fast data retrieval
+✔ Oriented around performance & usability
+
+✔ Below is table which we will convert to dimension model
+
+<img width="678" height="417" alt="Screenshot 2025-11-14 191955" src="https://github.com/user-attachments/assets/1a2c5c7d-2644-4fb5-8aee-eeaabd956cf8" />
 
 
+✔ We will keep profit column in *Fact Table* and take name column out and 
+  create customer_dimension which will contain customer_id, name, and age etc.
+  ● through customer_id both fact table and customer-dim table can be   linked.
+  
+  <img width="713" height="211" alt="Screenshot 2025-11-14 192824" src="https://github.com/user-attachments/assets/d0db9f70-c40f-468e-821f-110754c713b3" />
 
+✔ In similar fashion we can take out product and category coloum as separate dimension(product dim) which will contain product_id , product, category like that.
 
+<img width="663" height="211" alt="Screenshot 2025-11-14 193112" src="https://github.com/user-attachments/assets/5ba4304b-17fa-4346-ba01-d0265eff1290" />
 
+✔ same goes with date column
 
+<img width="655" height="192" alt="Screenshot 2025-11-14 193314" src="https://github.com/user-attachments/assets/1ebfc513-c6cc-4638-9794-673d9293634c" />
+
+● Performance ↑   and  Usability ↑ Using dimensional modelling
+
+● How does it increaces performance and usability ?
+
+Normally If we qurey say 
+SELECT
+category,
+AVG(profit)
+FROM TABLE NAME
+GROUP BY category
+
+  So this query will access whole table and goes row by row this task is taking time as we include non necessary data.
+But using dimensional modelling we can directly connect the fact table with required dimensional table required and query it fast.
 
 
 
