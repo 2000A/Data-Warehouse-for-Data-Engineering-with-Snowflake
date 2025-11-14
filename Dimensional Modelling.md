@@ -1,4 +1,5 @@
-<img width="655" height="192" alt="image" src="https://github.com/user-attachments/assets/a269d66d-1131-4d96-8d55-da07b1a32a7a" /><img width="663" height="211" alt="image" src="https://github.com/user-attachments/assets/7c8da619-7c45-4b73-9202-22c0c1df36f0" /><img width="678" height="417" alt="image" src="https://github.com/user-attachments/assets/dc761539-a11b-4e88-b4cd-ab6ea5040671" /># Dimensional Modelling
+
+# Dimensional Modelling
 Method of organizing data in a data warehouse
 
 -> In data model data was normalized accros tables so we convert this data
@@ -8,7 +9,7 @@ Method of organizing data in a data warehouse
 
 Converting normalize data which is spread accross tables into denormalize form ie. we reduce the no. of tables together for better analysis.
 
-**Note : Normalization in SQL is a systematic process of organizing data in a database to reduce data redundancy and improve data integrity. It involves breaking down large tables into smaller, more manageable tables and establishing relationships between them based on a set of rules called "normal forms."**
+*Note : Normalization in SQL is a systematic process of organizing data in a database to reduce data redundancy and improve data integrity. It involves breaking down large tables into smaller, more manageable tables and establishing relationships between them based on a set of rules called "normal forms."*
 --------------------------------------------------------------
 
 <img width="896" height="526" alt="Screenshot 2025-11-14 174334" src="https://github.com/user-attachments/assets/c7c614e5-49f8-40c9-bfc0-efdabf4d09b1" />
