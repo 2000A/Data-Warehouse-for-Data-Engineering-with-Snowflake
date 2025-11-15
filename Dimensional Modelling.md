@@ -95,6 +95,9 @@ But using dimensional modelling we can directly connect the fact table with requ
 
 <img width="522" height="493" alt="Screenshot 2025-11-15 122329" src="https://github.com/user-attachments/assets/83d33c9d-06bc-4ce8-a0d1-fbfa91c4b3c1" />
 
+-----------------------------------------------------------------------
+
+# Star Schema Vs Snoflake Schema
 
 
 
