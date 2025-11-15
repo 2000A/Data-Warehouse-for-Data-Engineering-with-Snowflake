@@ -79,15 +79,21 @@ GROUP BY category
 But using dimensional modelling we can directly connect the fact table with required dimensional table required and query it fast.
 
 
+--------------------------------------------------------------------
+# Fact Table Deep-Dive
 
+<img width="833" height="463" alt="Screenshot 2025-11-15 115848" src="https://github.com/user-attachments/assets/1d3d70c2-8832-494e-a8e0-2e567be2786b" />
 
+<img width="499" height="461" alt="Screenshot 2025-11-15 115901" src="https://github.com/user-attachments/assets/62c8cf71-b364-45e0-8ebf-48fff432eb8d" />
 
+----------------------------------------------------------------------
+# Dimension Table Deep-Dive
+-> Dimensions don't change often 
+-> So We put those information that don't change often into dimension tables.
 
+<img width="865" height="546" alt="Screenshot 2025-11-15 122057" src="https://github.com/user-attachments/assets/393321d8-df54-43a3-9d51-a9e9591b5116" />
 
-
-
-
-
+<img width="522" height="493" alt="Screenshot 2025-11-15 122329" src="https://github.com/user-attachments/assets/83d33c9d-06bc-4ce8-a0d1-fbfa91c4b3c1" />
 
 
 
