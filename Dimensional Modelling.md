@@ -114,18 +114,24 @@ In Star Schema we use Denormalized for faster data retrieval where we will get d
 Denormalized:
 💠 There is data redundancy!
 -> Redundancy becuase here we are storing lot of information in single      table we can encounter data duplicacy as well 
+
 💠Optimized to get data out
 ->data warehouse are good for reading large data.
+
 💠 Query performance (read)
 ->since DW is good for reading large amount of data say we can analyse last 5 years of data 
+
 💠 User experiece
 -> can get results in seconds be it monthly or years of analysis.
 
 
 Star Schema: 
 ⭐ Most common schema in Data mart
+
 ⭐ Simplest form (vs. snowflake schema)
+
 ⭐ Work best for specific needs( simple set of queries vs complex queries)
+
 ⭐ Usability + Performance for specific (read) use-case
 
 
@@ -141,21 +147,36 @@ When we normalize star schema it becomes snowflake schema.
 <img width="714" height="408" alt="Screenshot 2026-01-29 193327" src="https://github.com/user-attachments/assets/8b7c2db0-4261-4997-b853-2b8c5cc16916" />
 
 
+♦️Types of Fact Tables:
+video to be watched for recap
+
+Steps to create a fact table:
+<img width="709" height="496" alt="Screenshot 2026-01-29 231035" src="https://github.com/user-attachments/assets/fc7faa97-95bd-4880-89ef-a0aa5ade8c6f" />
+
+Factless Fact table:
+<img width="809" height="424" alt="Screenshot 2026-01-29 233105" src="https://github.com/user-attachments/assets/401754f1-945a-4909-a248-a53495a4ab0b" />
+
+<img width="887" height="474" alt="Screenshot 2026-01-29 233300" src="https://github.com/user-attachments/assets/3fabd592-1488-411d-8145-c828193af857" />
+
+Surrogate Key (important for interviews)
+
+We have Natural key vs. Surrogate key
+usually Natural key comes out of source system i.e, Primary key
+But on data warehouse level we generate artifical key for our understanding through which we have faster retrival called as Surrogate key.
+
+Usually we create Surrogate key during ETL and also FK 
+<img width="760" height="429" alt="Screenshot 2026-01-29 233420" src="https://github.com/user-attachments/assets/e36f68d1-9f67-4fdc-83c4-190949f46fa3" />
+
+<img width="692" height="435" alt="Screenshot 2026-01-29 233740" src="https://github.com/user-attachments/assets/3dede617-b993-478b-b9e0-187aef93cd54" />
+
+<img width="683" height="463" alt="Screenshot 2026-01-29 233918" src="https://github.com/user-attachments/assets/43acfb36-0909-43a0-b062-9de18e329920" />
+
+<img width="707" height="498" alt="Screenshot 2026-01-29 234143" src="https://github.com/user-attachments/assets/64ba0388-ec4e-4492-81d2-3e0cda14c654" />
 
 
+<img width="876" height="514" alt="Screenshot 2026-01-29 234750" src="https://github.com/user-attachments/assets/60b81a7c-41af-49d0-84d7-e14944fe912f" />
 
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="811" height="397" alt="Screenshot 2026-01-29 234927" src="https://github.com/user-attachments/assets/2c22d487-43f7-402e-99f3-b9b4030e34b8" />
 
 
 
