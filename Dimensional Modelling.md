@@ -179,8 +179,12 @@ Usually we create Surrogate key during ETL and also FK
 <img width="811" height="397" alt="Screenshot 2026-01-29 234927" src="https://github.com/user-attachments/assets/2c22d487-43f7-402e-99f3-b9b4030e34b8" />
 
 
+Date Dimensions (very important and most common )
 
+<img width="692" height="456" alt="Screenshot 2026-01-29 235314" src="https://github.com/user-attachments/assets/bae43fad-edb4-4360-9bcf-d9f92c4<img width="812" height="548" alt="Screenshot 2026-01-29 235501" src="https://github.com/user-attachments/assets/4a3e2917-1ccd-486d-ae49-b52169d4368f" />
+bd020" />
 
+![Uploading Screenshot 2026-01-29 235501.png…]()
 
 
 
