@@ -138,6 +138,91 @@ In data lake house one can get both raw data as well as structured, transformed 
 
 <img width="1224" height="598" alt="Screenshot 2025-11-13 234845" src="https://github.com/user-attachments/assets/f5e553ec-8810-4f29-b8bb-224a2ea0c0f7" />
 
+# Snowflake Architechture:
+
+<img width="782" height="667" alt="Screenshot 2026-01-29 133817" src="https://github.com/user-attachments/assets/176f546c-f0c5-4941-b396-7c487deb7b2e" />
+
+Snoflake Architecture is divided into three layers:
+
+CLOUD SERVICES LAYER
+-> This is the actual UI that user sees
+-> This layer is brain of snowflake database 
+
+COMPUTE LAYER
+->This is where query gets run
+
+DATA STORAGE LAYER
+-> All data gets stored here 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
