@@ -99,23 +99,46 @@ See say we need avg of price of each product and we write query on simple table 
 
 # Star Schema Vs Snoflake Schema
 
+note: snoflake schema is not associated with snowflake database.
+
+Star Schema:
+<img width="400" height="450" alt="Screenshot 2026-01-29 181940" src="https://github.com/user-attachments/assets/e29577a6-7318-4b2b-9210-20d2761809b6" />
+
+1:n ( one to n relationship)
+-> one product will have multiple sales.
+
+We generally have Normalized form in relational database and in Data warehouse we use Denormalized form.
+
+In Star Schema we use Denormalized for faster data retrieval where we will get data redundancy(data repeated) because of storing a lot of information in a single table but it ensures faster data retreival like instead of joining five table we can use single table.
+
+Denormalized:
+💠 There is data redundancy!
+-> Redundancy becuase here we are storing lot of information in single      table we can encounter data duplicacy as well 
+💠Optimized to get data out
+->data warehouse are good for reading large data.
+💠 Query performance (read)
+->since DW is good for reading large amount of data say we can analyse last 5 years of data 
+💠 User experiece
+-> can get results in seconds be it monthly or years of analysis.
 
 
+Star Schema: 
+⭐ Most common schema in Data mart
+⭐ Simplest form (vs. snowflake schema)
+⭐ Work best for specific needs( simple set of queries vs complex queries)
+⭐ Usability + Performance for specific (read) use-case
 
 
+Snowflake Schema:
+Snowflake Schema is a star schema but extended version of it.
 
+Below we can see we have further divided the Dimension table of above star schema for category.
 
+<img width="794" height="504" alt="Screenshot 2026-01-29 193118" src="https://github.com/user-attachments/assets/ce324e36-aeec-4b04-8386-61ba9c3444a1" />
 
+When we normalize star schema it becomes snowflake schema.
 
-
-
-
-
-
-
-
-
-
+<img width="714" height="408" alt="Screenshot 2026-01-29 193327" src="https://github.com/user-attachments/assets/8b7c2db0-4261-4997-b853-2b8c5cc16916" />
 
 
 
