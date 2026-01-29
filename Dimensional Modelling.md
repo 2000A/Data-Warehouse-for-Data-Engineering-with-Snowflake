@@ -78,7 +78,7 @@ GROUP BY category
   So this query will access whole table and goes row by row this task is taking time as we include non necessary data.
 But using dimensional modelling we can directly connect the fact table with required dimensional table required and query it fast.
 
-
+See say we need avg of price of each product and we write query on simple table which will result in fetching of the table then columns will be fetched it takes time. Now we have dimensions so connecting product dimension table and price fact table will result in faster quering of desiered result. Therefore dimensional modelling is go to for datawarehousing.
 --------------------------------------------------------------------
 # Fact Table Deep-Dive
 
