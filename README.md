@@ -153,31 +153,56 @@ COMPUTE LAYER
 
 DATA STORAGE LAYER
 -> All data gets stored here 
+--------------------------------------------------------------
+
+Extract Transform Load :
+
+What is an ETL?
+-> How to design deimensional model
+-> How to bring data from source to DWH
+                = ETL process
+
+<img width="815" height="426" alt="Screenshot 2026-02-05 125357" src="https://github.com/user-attachments/assets/346e8576-b23a-4f50-82a1-d2cf7bdbdb0e" />
+
+data sources like kaggle we used Instarct Market basket analysis data from kaggle and next step we staged the data in aws s3 and Core/Data Warehouse is when we create dim and fact tables then data mart are nothing but desired column fetched by data analysts or scientist for their specific uses like building dashboards etc.
+
+Extracting:
+<img width="800" height="358" alt="Screenshot 2026-02-05 132908" src="https://github.com/user-attachments/assets/bada5aff-8f21-430e-b520-af038991473a" />
+
+Here Data is Transient means short lived, temporary information that exists briefly only during ETL.
+
+for example stock data comes contineously so we cannot store it in Kafka we need to store the contineous stream of data in a storage like S3
+
+Extracting Types:
+
+Initial Load: 
+-> First (real) run 
+-> all data
+Initial Load is one time loading of data say loading data from RDBMS just loading the data as it is.
+
+Delta Load:
+- Subsequent runs
+- Only additional data
+  like Spotify or Maharashtra aqi project where new data keeps on coming through live API
+
+<img width="498" height="411" alt="Screenshot 2026-02-05 142541" src="https://github.com/user-attachments/assets/37c19320-43ef-46ce-a94f-7b2ac59e154d" />
+
+<img width="658" height="402" alt="Screenshot 2026-02-05 142649" src="https://github.com/user-attachments/assets/4fc23574-dc2d-4ec1-98fd-3ba6c7ce59f1" />
+
+Transformation:
+-> Main goals of tranformation is to apply different logic to data
+1. Consolidate (from multiple systems)
+   Data coming from different sources we have to merge them all data at     one location
+<img width="570" height="404" alt="Screenshot 2026-02-05 152218" src="https://github.com/user-attachments/assets/a53bcbb7-0654-49be-ab2d-46dfb83574ff" />
 
 
+<img width="691" height="400" alt="Screenshot 2026-02-05 153732" src="https://github.com/user-attachments/assets/4d653d45-b7af-4e90-ab0a-f16db95963fc" />
+
+<img width="748" height="371" alt="Screenshot 2026-02-05 153834" src="https://github.com/user-attachments/assets/954c1579-5425-486f-9697-1d4a2a47365a" />
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ETL VS ELT :
+What is ELT ?
 
 
 
