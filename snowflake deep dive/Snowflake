@@ -1,0 +1,130 @@
+STAGE & COPY
+
+Loading Data: 
+- BULK LOADING
+1. Most frequent method
+2. Uses warehouses
+3. Loading from stages
+4. COPY command
+5. Tranformation possible 
+
+-CONTINUOUS LOADING
+1. Designed to load small volumes of data.
+2. Automatically once they are added to stages.
+3. Lates results for nanalysis
+4. Snowpipe (Serverless feature)
+
+- Understanding Stages
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
