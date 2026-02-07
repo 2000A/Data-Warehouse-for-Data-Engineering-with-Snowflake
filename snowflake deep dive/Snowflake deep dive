@@ -1,0 +1,50 @@
+STAGE & COPY
+
+Loading Data: 
+- BULK LOADING
+1. Most frequent method
+2. Uses warehouses
+3. Loading from stages
+4. COPY command
+5. Tranformation possible 
+
+-CONTINUOUS LOADING
+1. Designed to load small volumes of data.
+2. Automatically once they are added to stages.
+3. Lates results for nanalysis
+4. Snowpipe (Serverless feature)
+
+- Understanding Stages
+
+External Stage
+- External cloud provider
+   S3
+   Google Cloud Platform
+   Microsoft Azure
+- Database object created in Schema
+- CREATE STAGE(url, access settings)
+ Note: Additional costs may apply if region/platforms differs
+
+Internal Stage
+- Local Storage maintained by Snowflake.
+
+
+Copy Options:
+Way to load data onto target system using Copy command
+
+COPY INTO <table_name>
+FROM externalStage
+FILES = ('<file_name>', '<file_name2>')
+FILE_FORMAT = <file<format_name>
+copyOptions
+
+
+
+
+
+
+
+
+
+
+
