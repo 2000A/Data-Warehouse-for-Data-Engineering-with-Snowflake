@@ -78,7 +78,8 @@ needs is one way of performnce optimization.
 <img width="731" height="343" alt="Screenshot 2026-02-08 120640" src="https://github.com/user-attachments/assets/dca3409b-2375-4b63-9173-2b71c2b4bed2" />
 
 
-
+3. Caching
+   
 
 
 
