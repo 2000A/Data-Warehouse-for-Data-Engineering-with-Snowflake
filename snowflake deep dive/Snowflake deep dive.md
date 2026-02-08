@@ -79,11 +79,12 @@ needs is one way of performnce optimization.
 
 
 3. Caching
-   
+   1. Automatical process to speed up the queries
+   2. If query is executed twice, results are cached and can be re-used
+   3. Results are cached for 24hrs or until underlaying data has changed
 
 
-
-
+4. Clustering in Snowflake
 
 
 
